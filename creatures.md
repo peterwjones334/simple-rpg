@@ -12,23 +12,18 @@ Apply a +/- modifier to change.
 
 Human or human like creatures, distorted by temperament, size or predation.
 
-  -------------------------------------------------------------------------------------------------------------;
-  **2d6**   **Creature**   **Description**                                               **HD**   **Actions**
-  -------------------------------------------------------------------------------------------------------------;
-  D1D1      Human, Early Human             Human, feral, unbalanced or with malign intent    1
+| **2d6** | **Creature** | **Description** | **HD** | **Actions** |
+| - | - | - | - | - |
+| D1D1 | Human | Early Human Human, feral, unbalanced or with malign intent | 1 |
+| D1D2 | Goblin, Half-Human  | Tribal, Adapted for forest and underground | 1 |1d6 HP
+| D1D3 | Hob Goblin | Smart and organized. | 1
+| D1D4  | Berserker or Bugbear |Disadvantage on defense rolls when attacks.       2
+|  D1D5      Ogre or Giant                  Gives advantage on all CHA checks made against it 4
 
-  D1D2      Goblin, Half-Human             Tribal, Adapted for forest and underground        1        1d6 HP
-
-  D1D3      Hob Goblin                     Smart and organized.                              1
-
-  D1D4      Berserker or Bugbear           Disadvantage on defense rolls when attacks.       2
-
-  D1D5      Ogre or Giant                  Gives advantage on all CHA checks made against it 4
-
-  D1D6      Doppelganger or shapeshifter   Change form in a moment.*                         3
+|  D1D6      | Doppelganger or shapeshifter   Change form in a moment.*                         3
   
-  D1D6+1    Succubus, Incubus or Vampyre   Rare. 2 Claws or Fangs 1d6.**                     6        1d6 HP
-  -------------------------------------------------------------------------------------------------------------;
+|  D1D6+1     | Succubus, Incubus or Vampyre   Rare. 2 Claws or Fangs 1d6.**                     6        1d6 HP
+  
 ### Human Options
 
    *Disadvantage against magic checks
