@@ -15,34 +15,23 @@ On their turn every character can move somewhere Nearby as part of an action, pe
 
 This supports the narrative 'theatre of the mind' style of play and is less concerned about tracking squares and distances. For converting existing movement rates or measures use the following.
 
-  -----------------------------------------------------------------------;
-  **Distance**            **Feet**                **Meters**
-  ----------------------- ----------------------- -----------------------;
-  Close                   0 - 5                   0 - 2
-
-  Nearby                  5 - 60                  2 - 20
-
-  Far Away               60 - 120                20 - 50
-  -----------------------------------------------------------------------;
+|     Distance    |     Feet       |     Meters     |
+|-----------------|----------------|----------------|
+|     Close       |     0 - 5      |     0 - 2      |
+|     Nearby      |     5 - 60     |     2 - 20     |
+|     Far Away    |     60 -120    |     20 - 50    |
 
 Some creatures and NPCs will have pre-determined personalities and goals that will guide a GM when choosing their actions towards the characters.
 
 When the characters are on travelling, The GM should roll a 1d6 every 20 minutes of real-world play. A result of 1-2 means the players will encounter a randomly generated creature or distraction in the next turn. Randomly encountered creatures will react to the characters, make a 2d6 Reaction roll.
 
-  -------------------------------------------------------------------------;
-  **Result**   **Reaction**
-  ------------ ------------------------------------------------------------;
-  1-2          Flee
-
-  2-6          Avoid
-
-  7-8          Confront and Call for Reinforcements
-
-  9            Confront and attempt to capture, kill or Eat the Character
-
-  10           Mistake the PC for friends or Trick the PC (re-reroll)
- 
- 11-12        Provide assist, usually trade items or information
-  -------------------------------------------------------------------------;
+|     Result    |     Reaction                                                        |
+|---------------|---------------------------------------------------------------------|
+|     1-2       |     Flee                                                            |
+|     2-6       |     Avoid                                                           |
+|     7-8       |     Confront and Call for Reinforcements                            |
+|     9         |     Confront and attempt to capture, kill or Eat   the Character    |
+|     10        |     Mistake the PC for friends or Trick the PC   (re-reroll)        |
+|     11-12     |     Provide assist, usually trade items or   information            |
 
 The likelihood of a meeting, and to some extent the reaction, will depending on the terrain, time of day and outcomes of previous encounters.

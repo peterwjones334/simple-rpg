@@ -6,53 +6,29 @@ Characters have a purse which contains 1d6 x 10 coins with which to buy equipmen
 
 Equipment is bought from NPC in a shop, stolen or traded with another character.
 
------------------------------------------------------------------------------------------------------------------------;
-  *Attribute*                                               *Uses*   *Cost*   *Mass*   *Level*   *Benefit*
---------------------------------------------------------- -------- -------- -------- --------- ------------------------;
-
-  Pack / Sack, blanket                                               5        1        1         + 2 Carry
-
-  Work Tools, Hammers, knives                               d6       5        1        1         +1 DEX
-
-  Rope (50'), Spikes                                        1        1        1        1
-
-  Food, Wine, Beer                                          1        1        1        1
-
-  Food Luxury / Herbs/ Medicines                            1        5        1        2         +1 heal
-
-  Fire Maker                                                         1                 1         Light Torch or Lantern
-
-  Torch                                                     1        1        1        1
-
-  Lantern                                                            10       1        2
-
-  Oil                                                       1        2        1        2         Fill Lantern
-
-  Pole / Staff                                                       1        2
-
-  1 Handed Weapon                                                    10       1
-
-  2 Handed Weapon                                                    50       2        2
-
-  Small items, Holy Symbols, Lucky charms, Vials, Mirrors   d6       25       1        2         +1 WIS when banishing
-
-  Clothes                                                            10       1        1
-
-  Leather                                                            20       1        1         +1 AP
-
-  Small Shield                                                       10       1        1         +1 AP
-
-  Chain                                                              50       2        1         +2 AP
-
-  Plate                                                              100      3        2         +2 AP
-
-  Large Shield                                                       50       2        2         +2 AP
-
-  Knight (Fitted Chain, Plate, Shield)                               200      6        3         +6 AP
-  
-  Magic Armor                                                        0        0        3         x 2 AP
-
-  -----------------------------------------------------------------------------------------------------------------------;
+|     Attribute                                                    |     Uses    |     Cost    |     Mass    |     Level    |     Benefit                   |
+|------------------------------------------------------------------|-------------|-------------|-------------|--------------|-------------------------------|
+|     Pack / Sack, blanket                                         |             |     5       |     1       |     1        |     + 2 Carry                 |
+|     Work Tools, Hammers, knives                                  |     d6      |     5       |     1       |     1        |     +1 DEX                    |
+|     Rope (50’), Spikes                                           |     1       |     1       |     1       |     1        |                               |
+|     Food, Wine, Beer                                             |     1       |     1       |     1       |     1        |                               |
+|     Food Luxury / Herbs/ Medicines                               |     1       |     5       |     1       |     2        |     +1 heal                   |
+|     Fire Maker                                                   |             |     1       |             |     1        |     Light Torch or Lantern    |
+|     Torch                                                        |     1       |     1       |     1       |     1        |                               |
+|     Lantern                                                      |             |     10      |     1       |     2        |                               |
+|     Oil                                                          |     1       |     2       |     1       |     2        |     Fill Lantern              |
+|     Pole / Staff                                                 |             |     1       |     2       |              |                               |
+|     1 Handed Weapon                                              |             |     10      |     1       |              |                               |
+|     2 Handed Weapon                                              |             |     50      |     2       |     2        |                               |
+|     Small items, Holy Symbols, Lucky charms, Vials,   Mirrors    |     d6      |     25      |     1       |     2        |     +1 WIS when banishing     |
+|     Clothes                                                      |             |     10      |     1       |     1        |                               |
+|     Leather                                                      |             |     20      |     1       |     1        |     +1 AP                     |
+|     Small Shield                                                 |             |     10      |     1       |     1        |     +1 AP                     |
+|     Chain                                                        |             |     50      |     2       |     1        |     +2 AP                     |
+|     Plate                                                        |             |     100     |     3       |     2        |     +2 AP                     |
+|     Large Shield                                                 |             |     50      |     2       |     2        |     +2 AP                     |
+|     Knight (Fitted Chain, Plate, Shield)                         |             |     200     |     6       |     3        |     +6 AP                     |
+|     Magic Armor                                                  |             |     0       |     0       |     3        |     x 2 AP                    |
 
 All Equipment is consumable and has limited use. When that item is used the next (turn) its Usage die is rolled. If the roll is 1-2 then the benefit is lost. Usage is downgraded with continue use.
 

@@ -8,14 +8,10 @@ GM should be clear and upfront with the player, so they know what the objectives
 
 When a character levels up, their maximum Hit Points increase by rolling the Hit Die for the class.
 
-  -----------------------------------------------------------------------;
-  **Class**                           **HP Increase**
-  ----------------------------------- -----------------------------------;
-  Combat                              2d6 for STR and DEX.
-
-  Manual                              2d6 for DEX and WIS.
-  
-  Knowledge                           2d6 for INT or WIS
-  -----------------------------------------------------------------------;
+|     Class        |     HP Increase             |
+|------------------|-----------------------------|
+|     Combat       |     2d6 for STR and DEX.    |
+|     Manual       |     2d6 for DEX and WIS.    |
+|     Knowledge    |     2d6 for INT or WIS.     |
 
 A player should roll a 3d6 for each Stat, if the result is higher - that Stat increases by 1.

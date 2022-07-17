@@ -12,38 +12,23 @@ Creatures deal damage based on their HD.
 
 If a player making an attack rolls a 1, they double the result of the damage dice they roll. If they roll a 20 when avoiding an attack, they take double damage. Armor Points are used normally.
 
-  ------------------------------------------------------------------------;
-  **Creature HD**              **Roll**              **Damage**
-  ---------------------------- --------------------- ---------------------;
-  1-3                          1d6                   3
-
-  4-6                          2d6-2                 5
-
-  7                            2d6                   7
-
-  7-10                         2d6+2                 9
-
-11-12                        3d6                   10
-  ------------------------------------------------------------------------;
+|     Class        |     HP Increase             |
+|------------------|-----------------------------|
+|     Combat       |     2d6 for STR and DEX.    |
+|     Manual       |     2d6 for DEX and WIS.    |
+|     Knowledge    |     2d6 for INT or WIS.     |
 
 For every HD above the character's level, add +1 to every roll the player makes for any attribute check that would determine the outcome of a conflict between them and an NPC. For example, a level 3 character defending against a HD 5 creatures attack would add +2 to their roll.
 
 The player should roll an attribute check when any spell, trap or effect would impact them.
 
-  --------------------------------------------------------------------------;
-  **Attribute**   **Effect**
-  --------------- ----------------------------------------------------------;
-  STR             Physical Harm that cannot be avoided
-
-  DEX             Physical Harm that can be avoided
-
-  CON             Poison, Disease or Death.
-
-  INT             Resisting Spells and Magic
-  
-  WIS             Deception and Illusions
-
-  CHA             Charming effects
-  --------------------------------------------------------------------------;
+|     Attribute    |     Effect                                  |
+|------------------|---------------------------------------------|
+|     STR          |     Physical Harm that cannot be avoided    |
+|     DEX          |     Physical Harm that can be avoided       |
+|     CON          |     Poison, Disease or Death.               |
+|     INT          |     Resisting Spells and Magic              |
+|     WIS          |     Deception and Illusions                 |
+|     CHA          |     Charming effects.                       |
 
 When a character is reduced to zero Hit Points (HP) they are taken Out of Action (OOA), they are unconscious and cannot make any actions.
