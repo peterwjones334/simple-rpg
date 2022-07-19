@@ -1,6 +1,6 @@
 ### Index
 
-[ Overview ](./readme.md)
+[ Overview ](./README.md)
 
 [ Game Mechanic ](./game-mechanic.md)
 
