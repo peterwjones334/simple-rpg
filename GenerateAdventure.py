@@ -5,7 +5,7 @@ import random
 class AdventureGenerator:
     quests = ["Retrieve an artifact", "Rescue a captive", "Slay a monster", "Uncover a secret", "Deliver an important message"]
     locations = ["Ancient ruins", "Enchanted forest", "Mysterious caverns", "Haunted castle", "Lost city"]
-    NPCs = ["Mysterious wizard", "Skilled rogue", Wise old sage", "Brave knight", "Shady merchant"]
+    NPCs = ["Mysterious wizard", "Skilled rogue", "Wise old sage", "Brave knight", "Shady merchant"]
 
     @staticmethod
     def generate_adventure():
