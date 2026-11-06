@@ -10,7 +10,7 @@
 
 [ Turns, Time, Movement, Encounters & Reactions ](./turns.md)
 
-[ Adavantage, Initaive & Combat ](./action.md)
+[ Advantage, Initiative & Combat ](./action.md)
 
 [ Rest & Healing ](./recovery.md)
 

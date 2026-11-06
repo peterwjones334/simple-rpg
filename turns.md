@@ -27,11 +27,11 @@ When the characters are on travelling, The GM should roll a 1d6 every 20 minutes
 
 |     Result    |     Reaction                                                        |
 |---------------|---------------------------------------------------------------------|
-|     1-2       |     Flee                                                            |
-|     2-6       |     Avoid                                                           |
+|     2-3       |     Flee                                                            |
+|     4-6       |     Avoid                                                           |
 |     7-8       |     Confront and Call for Reinforcements                            |
-|     9         |     Confront and attempt to capture, kill or Eat   the Character    |
-|     10        |     Mistake the PC for friends or Trick the PC   (re-reroll)        |
-|     11-12     |     Provide assist, usually trade items or   information            |
+|     9         |     Confront and attempt to capture, kill or Eat the Character      |
+|     10        |     Mistake the PC for friends or Trick the PC (re-roll)            |
+|     11-12     |     Provide assist, usually trade items or information              |
 
 The likelihood of a meeting, and to some extent the reaction, will depending on the terrain, time of day and outcomes of previous encounters.
