@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRPG — Simple Role-Playing Game</title>
+<style>
+:root {
+  --bg: #f4efe6;
+  --fg: #1a1612;
+  --accent: #8b4513;
+  --card: #fffdf8;
+  --border: #c4b5a0;
+  --font: "Georgia", "Times New Roman", serif;
+}
+body.neon {
+  --bg: #0a0a12;
+  --fg: #e0e0ff;
+  --accent: #00f0ff;
+  --card: #12121f;
+  --border: #00f0ff44;
+  --font: "Courier New", monospace;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  line-height: 1.5;
+  transition: background 0.3s, color 0.3s;
+}
+header {
+  padding: 1rem 2rem;
+  border-bottom: 2px solid var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
+}
+h1 { margin: 0; font-size: 1.6rem; color: var(--accent); }
+nav button, .mode-toggle {
+  background: var(--card);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.8rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+nav button.active, .mode-toggle.active { background: var(--accent); color: var(--bg); }
+main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+section { display: none; }
+section.active { display: block; }
+.sheet {
+  background: var(--card);
+  border: 2px solid var(--border);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.sheet h2 { margin-top: 0; color: var(--accent); }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+th { background: var(--accent); color: var(--bg); }
+.fields { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.fields label { display: flex; flex-direction: column; font-size: 0.9rem; }
+.fields input, .fields select { background: var(--bg); color: var(--fg); border: 1px solid var(--border); padding: 0.3rem; font-family: inherit; }
+@media print {
+  header, nav, .mode-toggle, #rules, #adventure { display: none !important; }
+  body { background: white; color: black; }
+  .sheet { border: 1px solid black; page-break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>SRPG</h1>
+  <div>
+    <button class="mode-toggle" onclick="setMode('paper')">Paper</button>
+    <button class="mode-toggle" onclick="setMode('neon')">Neon</button>
+  </div>
+</header>
+<nav style="padding: 0.5rem 2rem; border-bottom: 1px solid var(--border);">
+  <button onclick="show('sheet')" class="active">Character Sheet</button>
+  <button onclick="show('rules')">Rules</button>
+  <button onclick="show('adventure')">Sample Adventure</button>
+</nav>
+<main>
+  <section id="sheet" class="active">
+    <div class="sheet">
+      <h2>Character Sheet</h2>
+      <div class="fields">
+        <label>Name <input type="text"></label>
+        <label>Class
+          <select>
+            <option>Combat Skilled</option>
+            <option>Manual Skilled</option>
+            <option>Knowledge Skilled</option>
+          </select>
+        </label>
+        <label>Level <input type="number" value="1"></label>
+        <label>STR <input type="number"></label>
+        <label>DEX <input type="number"></label>
+        <label>CON <input type="number"></label>
+        <label>INT <input type="number"></label>
+        <label>WIS <input type="number"></label>
+        <label>CHA <input type="number"></label>
+        <label>HP <input type="number"></label>
+        <label>Max HP <input type="number"></label>
+        <label>Armor (AP) <input type="number" value="1"></label>
+        <label>Coins <input type="number"></label>
+      </div>
+      <h3>Equipment & Notes</h3>
+      <textarea style="width:100%; height:120px; background:var(--bg); color:var(--fg); border:1px solid var(--border); font-family:inherit;"></textarea>
+      <p style="font-size:0.85rem; opacity:0.7;">Print this page for a paper sheet. Neon mode is for screen reading only.</p>
+    </div>
+  </section>
+  <section id="rules">
+    <div class="sheet">
+      <h2>Core Rules</h2>
+      <p><strong>Roll 1d6. Succeed if lower than the relevant attribute.</strong></p>
+      <p>Advantage: 2d6 keep lowest. Disadvantage: 2d6 keep highest.</p>
+      <p>Critical hit: natural 1 doubles damage dice. Critical failure on defense: natural 6 takes double damage.</p>
+      <h3>Classes (summary)</h3>
+      <table>
+        <tr><th>Class</th><th>Key Stats</th><th>Special</th></tr>
+        <tr><td>Combat</td><td>STR/DEX/CON</td><td>Extra attacks, sunder shield, combat healing</td></tr>
+        <tr><td>Manual</td><td>DEX/WIS/CHA</td><td>Backstab, skilled tasks, trap avoidance</td></tr>
+        <tr><td>Knowledge</td><td>INT/WIS</td><td>Spells, banish undead, resist magic</td></tr>
+      </table>
+      <p>Full cleaned rules available as PDF/EPUB in the repository.</p>
+    </div>
+  </section>
+  <section id="adventure">
+    <div class="sheet">
+      <h2>The Phylactery of the Black Fen</h2>
+      <p><strong>Background:</strong> Dark Fantasy</p>
+      <p><strong>Objective:</strong> Retrieve the phylactery hidden in the Black Fen before the next new moon.</p>
+      <p><strong>NPC:</strong> Mysterious Stranger at the fen’s edge.</p>
+      <p><strong>Boss:</strong> The Lich Queen (7 HD). Destroy her phylactery in the manor well to weaken her.</p>
+      <p>Full adventure text is in Sample-Adventure-Black-Fen.md.</p>
+    </div>
+  </section>
+</main>
+<script>
+function show(id) {
+  document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+function setMode(mode) {
+  document.body.className = mode;
+  document.querySelectorAll('.mode-toggle').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+setMode('paper');
+</script>
+</body>
+</html>
