@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Welcome to the world of [Name of RPG], a fantasy role-playing game where the possibilities are endless and the adventure never ends. As an experienced GM, you hold the power to guide your players on their journey through the realm of magic and mystery.
+Welcome to the world of Simple RPG, a fantasy role-playing game where the possibilities are endless and the adventure never ends. As an experienced GM, you hold the power to guide your players on their journey through the realm of magic and mystery.
 
 Here, you will find a ruleset that harkens back to the days of early tabletop gaming, when game mechanics were simple and straightforward, leaving plenty of room for the players to craft their own stories. This is the perfect game for those who seek a nostalgic gaming experience, or for those who are looking for a more immersive and collaborative storytelling experience.
 
-The fantasy role-playing genre has come a long way since its inception, and this latest iteration of the rulebook is an acknowledgemet to its evolution.
+The fantasy role-playing genre has come a long way since its inception, and this latest iteration of the rulebook is an acknowledgement to its evolution.
 
 The Author has taken great care to ensure that this guide is comprehensive, user-friendly, and above all, enjoyable. From the creation of your character to the epic battles and cunning puzzles that you will encounter along the way, this rulebook will guide you every step of the way.
 
-So grab your dice, draw your sword, open your spellbook, and join us as we embark on a journey through the [Name of RPG]. Along the way, we promise to keep things safe, light-hearted and full of fun as we adventure our way through the many challenges that await us. Let's see what hidden secrets, treasure and glory we can uncover, together!
+So grab your dice, draw your sword, open your spellbook, and join us as we embark on a journey through Simple RPG. Along the way, we promise to keep things safe, light-hearted and full of fun as we adventure our way through the many challenges that await us. Let's see what hidden secrets, treasure and glory we can uncover, together!
 
 ### Overview of  Role Playing Games
 
@@ -91,7 +91,7 @@ Role-Playing Games (RPGs) involve a group of players gathering to tell an intera
 
 ## Character Creation
 
-When creating your character, your first step is to decide on the class they will be playing as in the game world, Classes nclude warrior, wizard, thief, etc.. Each race has its own set of special abilities that it can use in combat or non-combat scenarios while classes usually have access to certain weapons or spells which may be useful in different situations. It is important to consider how each class affects your character’s overall effectiveness in combat or non-combat scenarios before making a final decision.
+When creating your character, your first step is to decide on the class they will be playing as in the game world, Classes include warrior, wizard, thief, etc.. Each race has its own set of special abilities that it can use in combat or non-combat scenarios while classes usually have access to certain weapons or spells which may be useful in different situations. It is important to consider how each class affects your character’s overall effectiveness in combat or non-combat scenarios before making a final decision.
 
 Character creation for a role playing game involves the following steps:
 
@@ -134,7 +134,7 @@ There are some basic equipment items that all characters have by default include
 
 2. Backpack or Bag: This is a portable storage container used to carry items that are not immediately needed in combat situations such as food, water, money, etc.
 
-3. Food and Water: This is basic sustenance for thier next meal, or to last a few days.
+3. Food and Water: This is basic sustenance for their next meal, or to last a few days.
 
 4. Torch: This is a handheld ignition and light source. Use to light fires and to illuminate dark areas and provide additional visibility during exploration or combat.
 
@@ -834,15 +834,15 @@ Here a List of 20 intelligent adversaries with descriptions and their motivation
 
 15. Spirit Shaman - An immortal being connected with spiritual realms, they are able use their connection as a conduit between our world and theirs. Motivation: To use their powers for good ,guiding lost souls towards enlightenment while protecting against evil ..  
 
-16. Time Lord - A powerful entity capable of manipulating time itself, they exist outside our limited perception of linear time. Motivaton: To maintain balance within our timeline against forces attempting disrupt it for personal gain ..  
+16. Time Lord - A powerful entity capable of manipulating time itself, they exist outside our limited perception of linear time. Motivation: To maintain balance within our timeline against forces attempting disrupt it for personal gain ..  
 
-17. Unliving Construct - Created by powerful magic users these constructs appear as living beings but lack any emotions or feelings. Motivaton: To serve their creators faithfully ,performing tasks without question while never tiring or slowing down.
+17. Unliving Construct - Created by powerful magic users these constructs appear as living beings but lack any emotions or feelings. Motivation: To serve their creators faithfully ,performing tasks without question while never tiring or slowing down.
 
-18. Vampire Lord - An ancient vampire lord who rules over vast armies of minions ,they possess immense strength as well as enhanced regenerative abilities. Motivaton: To spread fear throughout all lands while maintaining absolute control over any opposition.  
+18. Vampire Lord - An ancient vampire lord who rules over vast armies of minions ,they possess immense strength as well as enhanced regenerative abilities. Motivation: To spread fear throughout all lands while maintaining absolute control over any opposition.  
 
-19. Witch Doctor - An evil magic user possessing dark knowledge about curses, rituals ,and hexes they seek power through manipulation people’s fears. Motivaton: To gain absolute control over anyone unfortunate enough cross paths with them while spreading chaos throughout lands ..  
+19. Witch Doctor - An evil magic user possessing dark knowledge about curses, rituals ,and hexes they seek power through manipulation people’s fears. Motivation: To gain absolute control over anyone unfortunate enough cross paths with them while spreading chaos throughout lands ..  
 
-20. Wizard Master - The most powerful spellcasters alive, they have dedicated lifetimes learning secrets magical arts granting them immense power over reality itself. Motivaton: To use their knowledge responsibly while striving maintain balance between order chaos within worlds.
+20. Wizard Master - The most powerful spellcasters alive, they have dedicated lifetimes learning secrets magical arts granting them immense power over reality itself. Motivation: To use their knowledge responsibly while striving maintain balance between order chaos within worlds.
 
 21. The Necromancer - One of main adversaries villain is a mysterious sorcerer who has become a Necromancer. He is a powerful and crafty being with a variety of magical abilities and knowledge, who seeks to dominate the world with his dark magic. His ultimate goal is to enslave all living creatures and rule over them with an iron fist. He has no qualms about using necromancy and other forms of dark magic to achieve his goals.
 
@@ -852,7 +852,7 @@ The Necromancer's realm is made up of many different realms and planes, some vis
 
 The Necromancer himself is an incredibly powerful being whose strength lies not only in his magical powers but also in his cunning nature which allows him to outwit opponents at every turn. He constantly seeks new ways to further his plans for domination and will never stop until he has achieved what he desires most - complete control over all living.
 
-The Necromancer's primary adversy are a group of Heroes. They are a brave band of adventurers who have sworn to protect the land from any evil that threatens it. The Heroes are skilled in all manner of combat, magics, and other skills necessary for defeating their foes. They have access to powerful weapons and artifacts that they can use to fight against the Necromancer's dark forces.
+The Necromancer's primary adversary are a group of Heroes. They are a brave band of adventurers who have sworn to protect the land from any evil that threatens it. The Heroes are skilled in all manner of combat, magics, and other skills necessary for defeating their foes. They have access to powerful weapons and artifacts that they can use to fight against the Necromancer's dark forces.
 
 ## Traps and Puzzles
 
@@ -926,7 +926,7 @@ Here are some tips on treasure in the game:
 
 - Rarity: Make some items rare or unique, such as one-of-a-kind magic items or valuable artifacts. This creates a sense of excitement and provides players with a goal to strive for.
 
-- Progression: Consider how reasures should progress over the course of the game, such as increasing in value, rarity, or power as the characters progress. This creates a sense of progression and gives players a goal to strive for.
+- Progression: Consider how treasures should progress over the course of the game, such as increasing in value, rarity, or power as the characters progress. This creates a sense of progression and gives players a goal to strive for.
 
 - Balance: Ensure that the rewards are balanced with the difficulty of acquiring them. Players should feel that their efforts are rewarded, but the rewards should not be too easy to obtain.
 
@@ -996,7 +996,7 @@ Two day travel from Graywood lies Mount Terris, a tall mountain peak that towers
 
 The last major location is the Keep which was once home to a powerful family who ruled over all of these lands until they mysteriously vanished one day leaving behind only their keep which now lies abandoned and forgotten in time, forgotten stories waiting to be discovered by brave adventurers willing enough to risk their lives exploring its crumbling halls and dungeon below..
 
-Playing through these locations can take players on all sorts of exciting journeys across different landscapes and locations as encounter creaturs, battle against monsters and villains, while searching for clues or artifacts that will help them move closer towards uncovering secrets deep within the world,
+Playing through these locations can take players on all sorts of exciting journeys across different landscapes and locations as encounter creatures, battle against monsters and villains, while searching for clues or artifacts that will help them move closer towards uncovering secrets deep within the world,
 
 ## Locations
 
@@ -1020,7 +1020,7 @@ Playing through these locations can take players on all sorts of exciting journe
 
 Session can feature an otherworldly plane as a source of powerful magic and ancient creatures; this can include anything from the Underworld to alternate dimensions or even heaven and hell. These planes offer characters a chance to face off against powerful entities, collect rare items and engage in epic battles against forces of good or evil. Depending on the game setting, players may even be able to use their characters’ abilities to traverse between different planes, allowing them to explore a variety of settings within one game session!
 
-Here are a list of different and unusual places that the charcaters can visit and explore.
+Here are a list of different and unusual places that the characters can visit and explore.
 
 1. The Realm of the Fey: A mysterious and magical realm full of faeries, sprites, and other mythical creatures. The land is full of lush forests, vast meadows, and glowing rivers. Players can explore the depths of the forests and discover hidden secrets or travel to the top of the highest mountain peaks for breathtaking views.
 

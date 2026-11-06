@@ -35,3 +35,11 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 15. **COPYRIGHT NOTICE**
 
 Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+
+Simple RPG (SRPG) Copyright 2021–2026, 334 Digital / Peter Jones.
+
+**Identification of Open Game Content and Product Identity (Open Game License v1.0a, Section 8).** Bare game mechanics are Open Game Content. Everything else in Simple RPG (SRPG) is Product Identity. Product Identity is not Open Game Content, and Open Game Content does not include Product Identity.
+
+Product Identity, as defined in Section 1(e), is: the product name "Simple RPG" and the abbreviation "SRPG"; logos; trade dress; artwork; fiction and story text; unique creature and character names and descriptions; and layout and graphic design.
+
+Open Game Content is only the bare game mechanics: checks, attributes, combat and resolution procedures, and mechanical tables. Where those mechanics are printed alongside Product Identity, only the bare mechanic is Open Game Content. The product name Simple RPG / SRPG, logos, trade dress, artwork, fiction and story text, unique creature and character names and descriptions, and layout and graphic design remain Product Identity.

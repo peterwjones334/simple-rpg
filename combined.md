@@ -99,7 +99,7 @@ The structure is just a general guide, and you can modify it to fit the needs of
 
 *Enter the Game*
 
-Welcome to the world of \[**insert your RPG name here**\]! In this game, you will take on the role of a character who will embark on a grand adventure in a fantastical world filled with danger and wonder.
+Welcome to the world of **Simple RPG**! In this game, you will take on the role of a character who will embark on a grand adventure in a fantastical world filled with danger and wonder.
 
 You will create your character by choosing their class, and abilities, and then guide them through a series of challenges and quests as they gain experience, level up, and become more powerful.
 
@@ -486,15 +486,15 @@ Here are some possible narratives for the game for the GM to structure the game 
 
 ## Developer Guidance
 
-Determine the core "mechanic" of the game first. For exmaple a roll dice above or below a threshold value. This is the baseline for how the other factors integrate. My strong suggestion is that the core mechanic design is kept simple, so it is easy to learn and isn't a blocker for players.
+Determine the core "mechanic" of the game first. For example a roll dice above or below a threshold value. This is the baseline for how the other factors integrate. My strong suggestion is that the core mechanic design is kept simple, so it is easy to learn and isn't a blocker for players.
 
-Define the "modifiers" which are anything that affect the result of the core mechanic. These "modifiers" include character types, skills & abilities, equipment, impacts & outcomes, creatures, books & spells, which change the chance of success of the core mechanic. Modifiers are added or substracted and imapct the probility of a successful outcome, opersting as a technical control to retain the characters within the game.
+Define the "modifiers" which are anything that affect the result of the core mechanic. These "modifiers" include character types, skills & abilities, equipment, impacts & outcomes, creatures, books & spells, which change the chance of success of the core mechanic. Modifiers are added or subtracted and impact the probability of a successful outcome, operating as a technical control to retain the characters within the game.
 
 Develop "effects" which  are the result from successful checks (dice rolls), or occur by due to structured Referee or Player decisions that result in a 'something' happening. For example character damage or influencing opponents actions.
 
-Check "License", typically you may be reverse enginering or re-using core mechanics, modifiers and effects, which is inevitable for basic concepts in common use within a 50+ year old industry, and as a consequence you may be creating derivative works of existing Commercial or Open Source property. Please either acknowldge, or seek written permission, as requsted of the owner of the source material(s). Consider the outputs a hobby or interest, you are very unlikley to derive a signifcant income from your efforts, and even less likley if you are subject to proceeding resulting from alleged copyright infingement or theft of Intellectual Property.
+Check "License", typically you may be reverse engineering or re-using core mechanics, modifiers and effects, which is inevitable for basic concepts in common use within a 50+ year old industry, and as a consequence you may be creating derivative works of existing Commercial or Open Source property. Please either acknowledge, or seek written permission, as requested of the owner of the source material(s). Consider the outputs a hobby or interest, you are very unlikely to derive a significant income from your efforts, and even less likely if you are subject to proceeding resulting from alleged copyright infringement or theft of Intellectual Property.
 
-Define a "Scenario". This provides the reason to play the games and give the value to the players. The scenario should work within the mechanic, may include exclusion or additions to modifiers and effects, with the intent to provide the players who completing a structured course of actions with reward. The reward(s) may be modifier or entry into another scernario. The scenario should also be checked for derivative works and licensed, as appropriate, if it is intended for publication and commercial distribution.  
+Define a "Scenario". This provides the reason to play the games and give the value to the players. The scenario should work within the mechanic, may include exclusion or additions to modifiers and effects, with the intent to provide the players who completing a structured course of actions with reward. The reward(s) may be modifier or entry into another scenario. The scenario should also be checked for derivative works and licensed, as appropriate, if it is intended for publication and commercial distribution.  
 
 
 ## Developer Resources
@@ -522,7 +522,7 @@ Open Gaming Network (https://opengamingnetwork.com/)
 
 Pathfinder SRD (http://pathfinder.d20srd.org/index.html)
 
-Fantasy Heatbreaker (https://screenrant.com/dungeons-dragons-old-school-fantasy-heartbreaker-rpgs/)
+Fantasy Heartbreaker (https://screenrant.com/dungeons-dragons-old-school-fantasy-heartbreaker-rpgs/)
 
 
 OSRIC (http://www.knights-n-knaves.com/osric/download.html)
@@ -656,15 +656,15 @@ You can modify the `class_stats` dictionary to include more character classes an
 
 ## Introduction
 
-Welcome to the world of [Name of RPG], a fantasy role-playing game where the possibilities are endless and the adventure never ends. As an experienced GM, you hold the power to guide your players on their journey through the realm of magic and mystery.
+Welcome to the world of Simple RPG, a fantasy role-playing game where the possibilities are endless and the adventure never ends. As an experienced GM, you hold the power to guide your players on their journey through the realm of magic and mystery.
 
 Here, you will find a ruleset that harkens back to the days of early tabletop gaming, when game mechanics were simple and straightforward, leaving plenty of room for the players to craft their own stories. This is the perfect game for those who seek a nostalgic gaming experience, or for those who are looking for a more immersive and collaborative storytelling experience.
 
-The fantasy role-playing genre has come a long way since its inception, and this latest iteration of the rulebook is an acknowledgemet to its evolution.
+The fantasy role-playing genre has come a long way since its inception, and this latest iteration of the rulebook is an acknowledgement to its evolution.
 
 The Author has taken great care to ensure that this guide is comprehensive, user-friendly, and above all, enjoyable. From the creation of your character to the epic battles and cunning puzzles that you will encounter along the way, this rulebook will guide you every step of the way.
 
-So grab your dice, draw your sword, open your spellbook, and join us as we embark on a journey through the [Name of RPG]. Along the way, we promise to keep things safe, light-hearted and full of fun as we adventure our way through the many challenges that await us. Let's see what hidden secrets, treasure and glory we can uncover, together!
+So grab your dice, draw your sword, open your spellbook, and join us as we embark on a journey through Simple RPG. Along the way, we promise to keep things safe, light-hearted and full of fun as we adventure our way through the many challenges that await us. Let's see what hidden secrets, treasure and glory we can uncover, together!
 
 ### Overview of  Role Playing Games
 
@@ -745,7 +745,7 @@ Role-Playing Games (RPGs) involve a group of players gathering to tell an intera
 
 ## Character Creation
 
-When creating your character, your first step is to decide on the class they will be playing as in the game world, Classes nclude warrior, wizard, thief, etc.. Each race has its own set of special abilities that it can use in combat or non-combat scenarios while classes usually have access to certain weapons or spells which may be useful in different situations. It is important to consider how each class affects your character’s overall effectiveness in combat or non-combat scenarios before making a final decision.
+When creating your character, your first step is to decide on the class they will be playing as in the game world, Classes include warrior, wizard, thief, etc.. Each race has its own set of special abilities that it can use in combat or non-combat scenarios while classes usually have access to certain weapons or spells which may be useful in different situations. It is important to consider how each class affects your character’s overall effectiveness in combat or non-combat scenarios before making a final decision.
 
 Character creation for a role playing game involves the following steps:
 
@@ -788,7 +788,7 @@ There are some basic equipment items that all characters have by default include
 
 2. Backpack or Bag: This is a portable storage container used to carry items that are not immediately needed in combat situations such as food, water, money, etc.
 
-3. Food and Water: This is basic sustenance for thier next meal, or to last a few days.
+3. Food and Water: This is basic sustenance for their next meal, or to last a few days.
 
 4. Torch: This is a handheld ignition and light source. Use to light fires and to illuminate dark areas and provide additional visibility during exploration or combat.
 
@@ -1488,15 +1488,15 @@ Here a List of 20 intelligent adversaries with descriptions and their motivation
 
 15. Spirit Shaman - An immortal being connected with spiritual realms, they are able use their connection as a conduit between our world and theirs. Motivation: To use their powers for good ,guiding lost souls towards enlightenment while protecting against evil ..  
 
-16. Time Lord - A powerful entity capable of manipulating time itself, they exist outside our limited perception of linear time. Motivaton: To maintain balance within our timeline against forces attempting disrupt it for personal gain ..  
+16. Time Lord - A powerful entity capable of manipulating time itself, they exist outside our limited perception of linear time. Motivation: To maintain balance within our timeline against forces attempting disrupt it for personal gain ..  
 
-17. Unliving Construct - Created by powerful magic users these constructs appear as living beings but lack any emotions or feelings. Motivaton: To serve their creators faithfully ,performing tasks without question while never tiring or slowing down.
+17. Unliving Construct - Created by powerful magic users these constructs appear as living beings but lack any emotions or feelings. Motivation: To serve their creators faithfully ,performing tasks without question while never tiring or slowing down.
 
-18. Vampire Lord - An ancient vampire lord who rules over vast armies of minions ,they possess immense strength as well as enhanced regenerative abilities. Motivaton: To spread fear throughout all lands while maintaining absolute control over any opposition.  
+18. Vampire Lord - An ancient vampire lord who rules over vast armies of minions ,they possess immense strength as well as enhanced regenerative abilities. Motivation: To spread fear throughout all lands while maintaining absolute control over any opposition.  
 
-19. Witch Doctor - An evil magic user possessing dark knowledge about curses, rituals ,and hexes they seek power through manipulation people’s fears. Motivaton: To gain absolute control over anyone unfortunate enough cross paths with them while spreading chaos throughout lands ..  
+19. Witch Doctor - An evil magic user possessing dark knowledge about curses, rituals ,and hexes they seek power through manipulation people’s fears. Motivation: To gain absolute control over anyone unfortunate enough cross paths with them while spreading chaos throughout lands ..  
 
-20. Wizard Master - The most powerful spellcasters alive, they have dedicated lifetimes learning secrets magical arts granting them immense power over reality itself. Motivaton: To use their knowledge responsibly while striving maintain balance between order chaos within worlds.
+20. Wizard Master - The most powerful spellcasters alive, they have dedicated lifetimes learning secrets magical arts granting them immense power over reality itself. Motivation: To use their knowledge responsibly while striving maintain balance between order chaos within worlds.
 
 21. The Necromancer - One of main adversaries villain is a mysterious sorcerer who has become a Necromancer. He is a powerful and crafty being with a variety of magical abilities and knowledge, who seeks to dominate the world with his dark magic. His ultimate goal is to enslave all living creatures and rule over them with an iron fist. He has no qualms about using necromancy and other forms of dark magic to achieve his goals.
 
@@ -1506,7 +1506,7 @@ The Necromancer's realm is made up of many different realms and planes, some vis
 
 The Necromancer himself is an incredibly powerful being whose strength lies not only in his magical powers but also in his cunning nature which allows him to outwit opponents at every turn. He constantly seeks new ways to further his plans for domination and will never stop until he has achieved what he desires most - complete control over all living.
 
-The Necromancer's primary adversy are a group of Heroes. They are a brave band of adventurers who have sworn to protect the land from any evil that threatens it. The Heroes are skilled in all manner of combat, magics, and other skills necessary for defeating their foes. They have access to powerful weapons and artifacts that they can use to fight against the Necromancer's dark forces.
+The Necromancer's primary adversary are a group of Heroes. They are a brave band of adventurers who have sworn to protect the land from any evil that threatens it. The Heroes are skilled in all manner of combat, magics, and other skills necessary for defeating their foes. They have access to powerful weapons and artifacts that they can use to fight against the Necromancer's dark forces.
 
 ## Traps and Puzzles
 
@@ -1580,7 +1580,7 @@ Here are some tips on treasure in the game:
 
 - Rarity: Make some items rare or unique, such as one-of-a-kind magic items or valuable artifacts. This creates a sense of excitement and provides players with a goal to strive for.
 
-- Progression: Consider how reasures should progress over the course of the game, such as increasing in value, rarity, or power as the characters progress. This creates a sense of progression and gives players a goal to strive for.
+- Progression: Consider how treasures should progress over the course of the game, such as increasing in value, rarity, or power as the characters progress. This creates a sense of progression and gives players a goal to strive for.
 
 - Balance: Ensure that the rewards are balanced with the difficulty of acquiring them. Players should feel that their efforts are rewarded, but the rewards should not be too easy to obtain.
 
@@ -1650,7 +1650,7 @@ Two day travel from Graywood lies Mount Terris, a tall mountain peak that towers
 
 The last major location is the Keep which was once home to a powerful family who ruled over all of these lands until they mysteriously vanished one day leaving behind only their keep which now lies abandoned and forgotten in time, forgotten stories waiting to be discovered by brave adventurers willing enough to risk their lives exploring its crumbling halls and dungeon below..
 
-Playing through these locations can take players on all sorts of exciting journeys across different landscapes and locations as encounter creaturs, battle against monsters and villains, while searching for clues or artifacts that will help them move closer towards uncovering secrets deep within the world,
+Playing through these locations can take players on all sorts of exciting journeys across different landscapes and locations as encounter creatures, battle against monsters and villains, while searching for clues or artifacts that will help them move closer towards uncovering secrets deep within the world,
 
 ## Locations
 
@@ -1674,7 +1674,7 @@ Playing through these locations can take players on all sorts of exciting journe
 
 Session can feature an otherworldly plane as a source of powerful magic and ancient creatures; this can include anything from the Underworld to alternate dimensions or even heaven and hell. These planes offer characters a chance to face off against powerful entities, collect rare items and engage in epic battles against forces of good or evil. Depending on the game setting, players may even be able to use their characters’ abilities to traverse between different planes, allowing them to explore a variety of settings within one game session!
 
-Here are a list of different and unusual places that the charcaters can visit and explore.
+Here are a list of different and unusual places that the characters can visit and explore.
 
 1. The Realm of the Fey: A mysterious and magical realm full of faeries, sprites, and other mythical creatures. The land is full of lush forests, vast meadows, and glowing rivers. Players can explore the depths of the forests and discover hidden secrets or travel to the top of the highest mountain peaks for breathtaking views.
 
@@ -1930,7 +1930,7 @@ RPGs  provide an immersive and engaging experience for players. Whether you’re
 
 1. Have a Plan: Planning ahead is essential to success in any role-playing game. Before beginning each session, take time to think about what your character’s goals are for that level and how you plan on achieving them. This will help ensure that your character is efficient and effective in each situation.
 
-2. Be Adaptable: No matter how well you plan, things don’t always go as expected in ole-playing games. Be prepared to adjust your strategy and tactics when needed to ensure that your character remains successful and on track with their goals.
+2. Be Adaptable: No matter how well you plan, things don’t always go as expected in role-playing games. Be prepared to adjust your strategy and tactics when needed to ensure that your character remains successful and on track with their goals.
 
 3. Know Your Character: It’s important to have an understanding of who your character is and how they interact with the world around them, especially at higher levels where the stakes are higher and more difficult challenges are presented. This will help you make better decisions when it comes to choosing strategies and tactics that will result in success for your character at any given level.
 
@@ -1954,7 +1954,7 @@ Elves: Elves are a race of tall, slender humanoids with pointed ears and a love 
 
 Humans: Humans are a race of diverse humanoids with varied appearances and abilities. They are known for their adaptability, creativity, and ambition. Humans have an affinity for technology and progress, and they often live in cities or other urban areas. They are also known for their skill in diplomacy and trade, as well as their love of knowledge. Humans tend to be ambitious but compassionate, and they value freedom above all else.
 
-### Ancestory
+### Ancestry
 
 The common ancestor between dwarves, elves and humans is the race of beings known as the Elder Races. These were a group of powerful, immortal beings that existed before the dawn of recorded history. They were said to have been created by the gods and were responsible for shaping the world as we know it today. The Elder Races included giants, dragons, trolls, orcs, goblins, and many other creatures. They also included dwarves, elves and humans. The Elder Races are believed to have been wiped out in a great war long ago, but their legacy lives on in the races they left behind.
 
@@ -2339,7 +2339,7 @@ Additionally, it’s important for players to understand how armor works when it
 
 Finally, it’s important for players to understand how conditions can affect combat theory and practice within role playing games . Conditions can be either beneficial (such as gaining an extra attack each round) or detrimental (such as taking extra damage from certain types of attacks) depending on what type of condition is applied during combat encounters . It’s important for players to pay attention both beneficial conditions that can help them succeed in combat encounters but also detrimental conditions that might hinder them if not handled correctly .
 
-In conclusion, understanding basic concepts related Combat within role playing games will ensure that players get the most out of their gaming experiences. By understanding initiatives, hit points, armor, & conditions, players will be able better prepare themselves against enemies & hazards while making sure they still have fun during battles . With this knowledge, palyers should feel more confident when entering into any kind of battle encounter & ultimately enjoy the game.
+In conclusion, understanding basic concepts related Combat within role playing games will ensure that players get the most out of their gaming experiences. By understanding initiatives, hit points, armor, & conditions, players will be able better prepare themselves against enemies & hazards while making sure they still have fun during battles . With this knowledge, players should feel more confident when entering into any kind of battle encounter & ultimately enjoy the game.
 
 ## How to Fight Monsters
 
@@ -2685,7 +2685,7 @@ The death of characters in an RPG can be emotionally tough but necessary sometim
 
 ## Mixing Up Combat and Conflict Resolution
 
-There are sveral basic types of Combat systems within the RPG.
+There are several basic types of Combat systems within the RPG.
 
 1. Dice-Based Combat: This type of combat system relies on dice rolls to determine the success or failure of a character's actions. Pros: Quick and easy to learn, allows for random elements that can add tension and excitement to a fight, can be adapted easily to different genres. Cons: Can be seen as too luck-based, can become repetitive and boring if not mixed up with other systems. Tips: Introduce different types of dice for different actions and modifiers, mix up the outcomes by introducing narrative elements such as environmental factors or character backgrounds, add in special abilities that require additional rolls for more strategic play.
 
@@ -2795,7 +2795,7 @@ Finally, some of their works contain elements that can be seen as offensive or i
 
 ## Working with the OSR Races
 
-Races in RPGs are sometimes portrayed as using outdated social stereotypes and cliches in social media. Stereotypes and cliches have lead player to believe that these races shoudl be used ort aren't capable of being taken seriously used as characters.
+Races in RPGs are sometimes portrayed as using outdated social stereotypes and cliches in social media. Stereotypes and cliches have lead player to believe that these races should be used ort aren't capable of being taken seriously used as characters.
 
 ### Dwarves
 Dwarves are a race of short, stocky humanoids that can be found in many fantasy settings. They are typically described as being hard-working and industrious people who excel at crafting items out of stone or metal such as weapons and armor. Dwarves have a strong sense of honor and respect for tradition, but they also have a fondness for gold which can lead them astray if left unchecked.
@@ -2834,7 +2834,7 @@ Additionally, game masters should strive to create unique and nuanced characteri
 
 Finally, game masters should also consider including new races or alternatives as options for players who do not wish to identify with those characters specifically.
 
-## Handling the Depiction of Villians
+## Handling the Depiction of Villains
 
 Racism is unfortunately prevalent in many fantasy settings, and it can be hard for a GM to handle it in a respectful and sensitive manner.
 
@@ -2946,13 +2946,13 @@ Consider using the following instead:
 
 5. Macabre: This word implies a sense of death and decay, and can be used to describe a setting or atmosphere that is morbidly dark and disturbing.
 
-## Designing a Charcater Sheet
+## Designing a Character Sheet
 
 Designing character sheets for a role-playing game (RPG) is an important part of the game design process. Character sheets provide players with a way to keep track of their characters’ stats, abilities, and other important information. They also serve as a reference point for the GM when running the game.
 
 When designing character sheets, there are several key elements to consider. The first is the layout of the sheet. It should be easy to read and understand, with all relevant information clearly visible. The second is the content of the sheet; it should include all necessary information about the character, such as their stats, abilities, equipment, and background. Finally, it should be visually appealing; this will help players stay engaged with their characters and make them more likely to use the sheet during play.
 
-The first step in designing a character sheet is to decide on its layout. This will depend on the type of RPG being played and how much information needs to be included on the sheet. For example, if playing a tabletop RPG such as hen a grid-based layout may be best as it allows for easy tracking of stats and abilities, Otherwsie a more traditional form-based layout may be better suited as it allows for more detailed descriptions of characters’ backgrounds and equipment.
+The first step in designing a character sheet is to decide on its layout. This will depend on the type of RPG being played and how much information needs to be included on the sheet. For example, if playing a tabletop RPG such as when a grid-based layout may be best as it allows for easy tracking of stats and abilities, Otherwise a more traditional form-based layout may be better suited as it allows for more detailed descriptions of characters’ backgrounds and equipment.
 
 Once you have decided on a layout for your character sheet, you can begin adding content. This should include all relevant information about the character such as their stats (e.g., Strength, Dexterity), abilities (e.g., spells or special attacks), equipment (e.g., weapons or armor), and background (e.g., race or class). It is also important to include any rules specific to your game system; this will help players understand how their characters interact with the world around them and make sure they are following all applicable rules during play.
 
@@ -3042,7 +3042,7 @@ When presenting adult or over 18 content during playtime, it can be helpful to u
 
  By establishing ground rules before beginning playtime, respecting each other's boundaries, using descriptive language when needed, utilizing alternatives such as handouts or online resources when necessary—and keeping conversations appropriate—GMs can ensure that their games remain enjoyable experiences for all involved without fear of anyone feeling uncomfortable due inappropriate material being presented at any point during gameplay.
 
-## Handling the Cultural Sensativities
+## Handling the Cultural Sensitivities
 
 As a Gamemaster (GM), handling the cultural sensitivities of some players when using magic and dealing with supernatural elements in roleplaying games can be challenging. It’s important to keep in mind that many players come from a variety of backgrounds, and may have strong personal views about the use of magic and supernatural elements. To ensure everyone has a positive gaming experience, it is important for you to take into consideration the cultural beliefs, values, and customs of your players when designing your game. Here are some tips and techniques for handling cultural sensitivities in roleplaying games.
 
@@ -3058,9 +3058,9 @@ As a Gamemaster (GM), handling the cultural sensitivities of some players when u
 
 6. Handle Complaints Proactively: It is not uncommon for some players to be uncomfortable discussing certain topics related to magic or religion during roleplaying games sessions; this could lead them feeling isolated if their opinions are not taken into consideration by GMs who don’t understand their feelings on these matters . To prevent this type of situation from occurring , make sure that all participants know that complaints are welcome at any time during a session without fear of judgement – allowing them space to express any concerns they may have about how certain aspects within a game make them feel. This helps create an atmosphere where everyone feels comfortable voicing their opinion without fear of being silenced by someone else's ideas on what should/shouldn't be done during playtime .
 
-7. Be Flexible : Lastly, it is important for GMs to remember that there are no set rules when it comes to dealing with cultural sensitivities in roleplaying games; every group is unique and therefore requires different approaches depending on its composition . As a result, try not to get too attachedt o one particular way of doing things; instead , remain flexible and willing to adapt based on feedback received from your players . This way you will always have a fair andr espectful gaming environment for everyone involved.
+7. Be Flexible : Lastly, it is important for GMs to remember that there are no set rules when it comes to dealing with cultural sensitivities in roleplaying games; every group is unique and therefore requires different approaches depending on its composition . As a result, try not to get too attached to one particular way of doing things; instead , remain flexible and willing to adapt based on feedback received from your players . This way you will always have a fair and respectful gaming environment for everyone involved.
 
-## Handling Unconcious Bias
+## Handling Unconscious Bias
 
 Role playing games (RPGs) are a popular form of entertainment that many people enjoy. Players get to step into the shoes of characters in a fantasy world and explore new places, interact with interesting characters, and experience thrilling adventures. However, when playing RPGs, it is important to be aware of unconscious bias that may arise among players. Unconscious bias is defined as “prejudice or stereotypes that form without conscious awareness or intention” and can lead to an unfair playing environment. As the Game Master (GM) or Dungeon Master (DM), it is your responsibility to ensure that all players are treated fairly and feel comfortable during the game. In this article we will discuss some tips and techniques for handling unconscious bias in RPG games.
 
@@ -3165,7 +3165,7 @@ Making players laugh in a role-playing game (RPG) can be a tricky task! It requi
 
 7. Keep things lighthearted: Finally, remember that RPGs are supposed to be fun! Don’t take yourself too seriously when running your game – if something doesn’t go according to plan, don’t worry about it too much and just move on with a smile on your face! Keeping things lighthearted will help ensure that everyone has a good time while playing your game – including you!
 
-By following these tips, you should be able to make your players laughwithout too much difficulty.. Just remember that humor is subjective – what might seem funny to one person might not be so amusing for another – so try not to take offense if someone doesn’t find your jokes particularly funny!
+By following these tips, you should be able to make your players laugh without too much difficulty.. Just remember that humor is subjective – what might seem funny to one person might not be so amusing for another – so try not to take offense if someone doesn’t find your jokes particularly funny!
 
 ## Playing with your Family
 
@@ -3239,7 +3239,7 @@ Summary of advise for the GM;
 4. Prepare for unexpected events: Have a plan for how you will handle any unexpected events that might arise during play.
 5. Encourage creative thinking: Give players freedom to make decisions within their characters’ abilities and allow them to explore different possibilities within the game world.
 6. Encourage collaboration: Foster an environment where players can work together as a team to solve problems or overcome obstacles presented in the game world.
-7. Be flexible: Be ready to adapt your plans if necessary based on feedback from your players or changes in gameplay dynamics as they progress through the storyarcs of your game world.
+7. Be flexible: Be ready to adapt your plans if necessary based on feedback from your players or changes in gameplay dynamics as they progress through the story arcs of your game world.
 8. Have fun: Above all else, enjoy yourself while playing, and make sure your players have fun too.
 
 ## About
@@ -4790,7 +4790,7 @@ The game ends when the objectives are met (or the characters are dead). The GM a
 
 [ Turns, Time, Movement, Encounters & Reactions ](./turns.md)
 
-[ Adavantage, Initaive & Combat ](./action.md)
+[ Advantage, Initiative & Combat ](./action.md)
 
 [ Rest & Healing ](./recovery.md)
 
@@ -4846,6 +4846,14 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 15. **COPYRIGHT NOTICE**
 
 Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+
+Simple RPG (SRPG) Copyright 2021–2026, 334 Digital / Peter Jones.
+
+**Identification of Open Game Content and Product Identity (Open Game License v1.0a, Section 8).** Bare game mechanics are Open Game Content. Everything else in Simple RPG (SRPG) is Product Identity. Product Identity is not Open Game Content, and Open Game Content does not include Product Identity.
+
+Product Identity, as defined in Section 1(e), is: the product name "Simple RPG" and the abbreviation "SRPG"; logos; trade dress; artwork; fiction and story text; unique creature and character names and descriptions; and layout and graphic design.
+
+Open Game Content is only the bare game mechanics: checks, attributes, combat and resolution procedures, and mechanical tables. Where those mechanics are printed alongside Product Identity, only the bare mechanic is Open Game Content. The product name Simple RPG / SRPG, logos, trade dress, artwork, fiction and story text, unique creature and character names and descriptions, and layout and graphic design remain Product Identity.
 
 
 action.md
@@ -4955,7 +4963,7 @@ When the characters are on travelling, The GM should roll a 1d6 every 20 minutes
 |     2-6       |     Avoid                                                           |
 |     7-8       |     Confront and Call for Reinforcements                            |
 |     9         |     Confront and attempt to capture, kill or Eat   the Character    |
-|     10        |     Mistake the PC for friends or Trick the PC   (re-reroll)        |
+|     10        |     Mistake the PC for friends or Trick the PC   (re-roll)        |
 |     11-12     |     Provide assist, usually trade items or   information            |
 
 The likelihood of a meeting, and to some extent the reaction, will depending on the terrain, time of day and outcomes of previous encounters.

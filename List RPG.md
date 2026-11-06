@@ -22,7 +22,7 @@ The structure is just a general guide, and you can modify it to fit the needs of
 
 *Enter the Game*
 
-Welcome to the world of \[**insert your RPG name here**\]! In this game, you will take on the role of a character who will embark on a grand adventure in a fantastical world filled with danger and wonder.
+Welcome to the world of **Simple RPG**! In this game, you will take on the role of a character who will embark on a grand adventure in a fantastical world filled with danger and wonder.
 
 You will create your character by choosing their class, and abilities, and then guide them through a series of challenges and quests as they gain experience, level up, and become more powerful.
 

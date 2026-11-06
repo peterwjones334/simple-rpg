@@ -119,7 +119,7 @@ RPGs  provide an immersive and engaging experience for players. Whether you’re
 
 1. Have a Plan: Planning ahead is essential to success in any role-playing game. Before beginning each session, take time to think about what your character’s goals are for that level and how you plan on achieving them. This will help ensure that your character is efficient and effective in each situation.
 
-2. Be Adaptable: No matter how well you plan, things don’t always go as expected in ole-playing games. Be prepared to adjust your strategy and tactics when needed to ensure that your character remains successful and on track with their goals.
+2. Be Adaptable: No matter how well you plan, things don’t always go as expected in role-playing games. Be prepared to adjust your strategy and tactics when needed to ensure that your character remains successful and on track with their goals.
 
 3. Know Your Character: It’s important to have an understanding of who your character is and how they interact with the world around them, especially at higher levels where the stakes are higher and more difficult challenges are presented. This will help you make better decisions when it comes to choosing strategies and tactics that will result in success for your character at any given level.
 
@@ -143,7 +143,7 @@ Elves: Elves are a race of tall, slender humanoids with pointed ears and a love 
 
 Humans: Humans are a race of diverse humanoids with varied appearances and abilities. They are known for their adaptability, creativity, and ambition. Humans have an affinity for technology and progress, and they often live in cities or other urban areas. They are also known for their skill in diplomacy and trade, as well as their love of knowledge. Humans tend to be ambitious but compassionate, and they value freedom above all else.
 
-### Ancestory
+### Ancestry
 
 The common ancestor between dwarves, elves and humans is the race of beings known as the Elder Races. These were a group of powerful, immortal beings that existed before the dawn of recorded history. They were said to have been created by the gods and were responsible for shaping the world as we know it today. The Elder Races included giants, dragons, trolls, orcs, goblins, and many other creatures. They also included dwarves, elves and humans. The Elder Races are believed to have been wiped out in a great war long ago, but their legacy lives on in the races they left behind.
 
