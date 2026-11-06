@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adventure — SRPG labs</title>
+<link rel="stylesheet" href="css/labs.css">
+</head>
+<body>
+<header class="site">
+  <div>
+    <a class="mark" href="index.html">SRPG labs</a>
+    <p class="tag">d6 roll-under, from the short rules</p>
+  </div>
+  <div class="theme">
+    <button type="button" data-theme="paper" class="active" aria-pressed="true">Paper</button>
+    <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+  </div>
+</header>
+<nav class="tools" aria-label="Labs">
+  <a href="dice.html">Checks</a>
+  <a href="character.html">Character</a>
+  <a href="npc.html">NPC</a>
+  <a href="adventure.html" aria-current="page">Adventure</a>
+  <a href="oracle.html">Oracle</a>
+</nav>
+<main>
+  <h1>Adventure</h1>
+  <p class="rule">Prompt lists from the List RPG notes. Anything that can fail is still an SRPG check: roll under an attribute on a d6.</p>
+  <section class="card no-print">
+    <label class="check"><input id="strange" type="checkbox"> Include strange and no-win destinations</label>
+    <label class="check"><input id="unbeatable" type="checkbox"> Boss is too strong to fight head-on</label>
+    <div class="actions">
+      <button type="button" id="roll-adventure">Roll an adventure</button>
+      <button type="button" class="secondary" onclick="window.print()">Print</button>
+    </div>
+    <div class="fields">
+      <label>One list
+        <select id="list-id"></select>
+      </label>
+      <button type="button" class="secondary" id="roll-one">Roll that list</button>
+    </div>
+    <div id="single-result" aria-live="polite"></div>
+  </section>
+  <div id="outline" aria-live="polite">
+    <p class="muted">Roll an adventure, or roll a single list.</p>
+  </div>
+  <details class="no-print">
+    <summary>Plain text</summary>
+    <pre id="plain" class="plain"></pre>
+  </details>
+</main>
+<footer>
+  <p>The lists are ported from <a href="../../guides/list-rpg.md">guides/list-rpg.md</a>. The sample in <a href="../../deliverables/Sample-Adventure-Black-Fen.md">The Phylactery of the Black Fen</a> was built from the same tables.</p>
+</footer>
+<noscript>These labs need JavaScript. There is no build step.</noscript>
+<script src="js/dice.js"></script>
+<script src="js/tables.js"></script>
+<script src="js/generate.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/adventure-page.js"></script>
+</body>
+</html>

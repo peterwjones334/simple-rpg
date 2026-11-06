@@ -27,7 +27,9 @@ Those notes still mention d20 games, armor class, and other hobby habits, becaus
 
 ## Labs
 
-[labs/](labs/README.md) holds small Python demos. Some roll d20 or OSR-style 3d6 and **do not** implement the SRPG d6 roll-under rules. Each file says which it is. The browser tools on the [live site](https://334digital.com/simple-rpg) follow the short rules.
+[labs/web/](labs/web/index.html) is a set of browser tools that follow the short rules: attribute checks, a character generator, an NPC and creature generator, a List RPG adventure roller, and a d6 solo oracle. Plain HTML and JavaScript, no build. Open the index in a browser, or publish the repository with GitHub Pages and use the `labs/web/` path.
+
+[labs/](labs/README.md) also keeps optional Python CLI demos. Some of those roll a d20 or OSR-style 3d6 and **do not** implement the SRPG d6 roll-under rules. Each file says which it is.
 
 ## What is not in this tree
 
@@ -40,6 +42,7 @@ The old `images/media/` dump is not shipped. That included unreferenced UUID pho
 ```
 rules/     short SRPG rules and the OGL
 guides/    field notes (Parts 1–3 and the other notebooks)
-labs/      Python demos
+labs/web/  browser tools that follow the short rules
+labs/      optional Python CLI demos (some are d20 or OSR, not SRPG)
 assets/    the dice image
 ```

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solo oracle — SRPG labs</title>
+<link rel="stylesheet" href="css/labs.css">
+</head>
+<body>
+<header class="site">
+  <div>
+    <a class="mark" href="index.html">SRPG labs</a>
+    <p class="tag">d6 roll-under, from the short rules</p>
+  </div>
+  <div class="theme">
+    <button type="button" data-theme="paper" class="active" aria-pressed="true">Paper</button>
+    <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+  </div>
+</header>
+<nav class="tools" aria-label="Labs">
+  <a href="dice.html">Checks</a>
+  <a href="character.html">Character</a>
+  <a href="npc.html">NPC</a>
+  <a href="adventure.html">Adventure</a>
+  <a href="oracle.html" aria-current="page">Oracle</a>
+</nav>
+<main>
+  <h1>Solo oracle</h1>
+  <p class="rule">A d6 yes-or-no aid for when you are the only player. It is not a new rule. Likely uses Advantage. Unlikely uses Disadvantage. The travel watch below is the procedure in the rules.</p>
+  <form id="ask-form" class="card">
+    <label>Question
+      <input id="question" type="text" maxlength="240" placeholder="Is the bridge watched?">
+    </label>
+    <fieldset>
+      <legend>Odds</legend>
+      <div class="choices">
+        <label class="check"><input type="radio" name="odds" value="likely"> Likely</label>
+        <label class="check"><input type="radio" name="odds" value="even" checked> Even</label>
+        <label class="check"><input type="radio" name="odds" value="unlikely"> Unlikely</label>
+      </div>
+    </fieldset>
+    <p class="muted">1 Yes, and. 2 Yes. 3 Yes, but. 4 No, but. 5 No. 6 No, and. A spark is a verb and a noun to interpret, not a result from the rules.</p>
+    <div class="actions">
+      <button type="submit">Ask</button>
+      <button type="button" class="secondary" id="spark">Spark only</button>
+      <button type="button" class="secondary" id="travel">Travel watch</button>
+    </div>
+  </form>
+  <section class="card">
+    <h2>Session</h2>
+    <p id="empty-log" class="muted">Nothing asked yet.</p>
+    <ul id="log" class="log" aria-live="polite"></ul>
+  </section>
+</main>
+<footer>
+  <p>Travel encounters and reactions are in <a href="../../rules/turns.md">Turns</a>. Attribute checks stay on the <a href="dice.html">Checks</a> page. The Python <code>gm_simulator.py</code> oracle rolls a d20 and is not this tool.</p>
+</footer>
+<noscript>These labs need JavaScript. There is no build step.</noscript>
+<script src="js/dice.js"></script>
+<script src="js/tables.js"></script>
+<script src="js/generate.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/oracle-page.js"></script>
+</body>
+</html>
