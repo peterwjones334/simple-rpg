@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NPC — SRPG labs</title>
+<link rel="stylesheet" href="css/labs.css">
+</head>
+<body>
+<header class="site">
+  <div>
+    <a class="mark" href="index.html">SRPG labs</a>
+    <p class="tag">d6 roll-under, from the short rules</p>
+  </div>
+  <div class="theme">
+    <button type="button" data-theme="paper" class="active" aria-pressed="true">Paper</button>
+    <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+  </div>
+</header>
+<nav class="tools" aria-label="Labs">
+  <a href="dice.html">Checks</a>
+  <a href="character.html">Character</a>
+  <a href="npc.html" aria-current="page">NPC</a>
+  <a href="adventure.html">Adventure</a>
+  <a href="oracle.html">Oracle</a>
+</nav>
+<main>
+  <h1>NPC</h1>
+  <p class="lead">A person uses the same three classes as a player character. A creature comes from the tables in the rules. The Python <code>npc_generator.py</code> sketch is not this procedure.</p>
+  <form id="person-form" class="card no-print">
+    <h2>Person</h2>
+    <div class="fields">
+      <label>Class
+        <select id="class-id">
+          <option value="random">Roll a class</option>
+          <option value="combat">Combat</option>
+          <option value="manual">Manual</option>
+          <option value="knowledge">Knowledge</option>
+        </select>
+      </label>
+      <label>Level
+        <input id="level" type="number" value="1" min="1" max="20">
+      </label>
+    </div>
+    <label class="check"><input id="focus" type="checkbox"> Optional focus on level-up</label>
+    <div class="actions">
+      <button type="submit">Roll person</button>
+    </div>
+  </form>
+  <div id="person" aria-live="polite"></div>
+  <form id="creature-form" class="card no-print">
+    <h2>Creature</h2>
+    <p class="muted">The rules say to roll 1d6 for the type and 1d6 for the creature, then apply a modifier. D7 Magic constructs is on the table as well. A modified 7 uses the rare row when that type has one.</p>
+    <div class="fields">
+      <label>Type
+        <select id="creature-type">
+          <option value="roll6">Roll 1d6 (D1–D6)</option>
+          <option value="roll7">Roll among D1–D7</option>
+        </select>
+      </label>
+      <label>Creature-die modifier
+        <input id="creature-mod" type="number" value="0" min="-5" max="5">
+      </label>
+    </div>
+    <button type="submit">Roll creature</button>
+  </form>
+  <div id="creature" aria-live="polite"></div>
+</main>
+<footer>
+  <p>People follow <a href="../../rules/characters.md">Characters</a>. Reactions are in <a href="../../rules/turns.md">Turns</a>. Creatures are in <a href="../../rules/creatures.md">Creatures</a>. Archetypes are in <a href="../../guides/list-rpg.md">List RPG</a>.</p>
+</footer>
+<noscript>These labs need JavaScript. There is no build step.</noscript>
+<script src="js/dice.js"></script>
+<script src="js/tables.js"></script>
+<script src="js/generate.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/npc-page.js"></script>
+</body>
+</html>

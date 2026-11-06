@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Character — SRPG labs</title>
+<link rel="stylesheet" href="css/labs.css">
+</head>
+<body>
+<header class="site">
+  <div>
+    <a class="mark" href="index.html">SRPG labs</a>
+    <p class="tag">d6 roll-under, from the short rules</p>
+  </div>
+  <div class="theme">
+    <button type="button" data-theme="paper" class="active" aria-pressed="true">Paper</button>
+    <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+  </div>
+</header>
+<nav class="tools" aria-label="Labs">
+  <a href="dice.html">Checks</a>
+  <a href="character.html" aria-current="page">Character</a>
+  <a href="npc.html">NPC</a>
+  <a href="adventure.html">Adventure</a>
+  <a href="oracle.html">Oracle</a>
+</nav>
+<main>
+  <h1>Character</h1>
+  <p class="rule">Roll the class table in order: STR, DEX, CON, INT, WIS, CHA. Two of those scores may be swapped. Hit points are a d6 plus STR, CON, and Armor Points.</p>
+  <section class="card no-print">
+    <div class="fields">
+      <label>Name
+        <input id="name" type="text" maxlength="80" placeholder="Leave blank to roll one">
+      </label>
+      <label>Class
+        <select id="class-id">
+          <option value="random">Roll a class</option>
+          <option value="combat">Combat</option>
+          <option value="manual">Manual</option>
+          <option value="knowledge">Knowledge</option>
+        </select>
+      </label>
+      <label>Level
+        <input id="level" type="number" value="1" min="1" max="20">
+      </label>
+    </div>
+    <label class="check"><input id="keep-name" type="checkbox"> Keep the name above</label>
+    <label class="check"><input id="focus" type="checkbox"> Optional focus: on level-up, roll only the class key attributes</label>
+    <p class="muted">Level 1 is the class table. Each level after that adds 1d6 to maximum HP, then rolls 1d6 against each attribute and raises it by 1 if the roll is higher. Focus, if you tick it, tries only STR and DEX for Combat, DEX and WIS for Manual, or INT and WIS for Knowledge.</p>
+    <div class="actions">
+      <button type="button" id="generate">Roll character</button>
+      <button type="button" class="secondary" onclick="window.print()">Print sheet</button>
+    </div>
+    <div class="fields">
+      <label>Swap
+        <select id="swap-a"></select>
+      </label>
+      <label>with
+        <select id="swap-b"></select>
+      </label>
+    </div>
+    <div class="actions">
+      <button type="button" class="secondary" id="apply-swap">Swap creation scores</button>
+      <button type="button" class="secondary" id="clear-swap">Undo swap</button>
+    </div>
+    <p id="swap-note" class="muted">No swap yet. One pair of creation scores may be swapped.</p>
+  </section>
+  <div id="sheet">
+    <p class="muted">Roll a character to fill the sheet.</p>
+  </div>
+  <details class="no-print">
+    <summary>Plain text</summary>
+    <pre id="plain" class="plain"></pre>
+  </details>
+</main>
+<footer>
+  <p>Class tables are in <a href="../../rules/characters.md">Characters</a>. Level-up is in <a href="../../rules/experience.md">Experience</a>. Starting gear is in <a href="../../rules/how-to-play.md">How to play</a> and <a href="../../rules/equipment.md">Equipment</a>.</p>
+</footer>
+<noscript>These labs need JavaScript. There is no build step.</noscript>
+<script src="js/dice.js"></script>
+<script src="js/tables.js"></script>
+<script src="js/generate.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/character-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SRPG labs</title>
+<link rel="stylesheet" href="css/labs.css">
+</head>
+<body>
+<header class="site">
+  <div>
+    <a class="mark" href="index.html">SRPG labs</a>
+    <p class="tag">d6 roll-under, from the short rules</p>
+  </div>
+  <div class="theme">
+    <button type="button" data-theme="paper" class="active" aria-pressed="true">Paper</button>
+    <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+  </div>
+</header>
+<nav class="tools" aria-label="Labs">
+  <a href="dice.html">Checks</a>
+  <a href="character.html">Character</a>
+  <a href="npc.html">NPC</a>
+  <a href="adventure.html">Adventure</a>
+  <a href="oracle.html">Oracle</a>
+</nav>
+<main>
+  <div class="hero">
+    <img src="../../assets/dice.webp" width="96" height="96" alt="Two white six-sided dice">
+    <div>
+      <h1>Browser labs</h1>
+      <p class="lead">Plain HTML and JavaScript for the table. A check succeeds when the d6 lands <strong>below</strong> the attribute. Advantage keeps the lower of 2d6. Disadvantage keeps the higher.</p>
+    </div>
+  </div>
+  <div class="cards">
+    <a class="card" href="dice.html">
+      <h2>Checks</h2>
+      <p>Roll-under attribute checks, Advantage, Disadvantage, modifiers, attack and defense criticals, plus the travel, reaction, recovery, and coin rolls from the rules.</p>
+    </a>
+    <a class="card" href="character.html">
+      <h2>Character</h2>
+      <p>Combat, Manual, or Knowledge. Attributes are a d6 plus the class modifier. Two scores may be swapped. Higher levels use the experience procedure.</p>
+    </a>
+    <a class="card" href="npc.html">
+      <h2>NPC</h2>
+      <p>A person from the three classes and the List RPG archetypes, or a creature from the D1–D7 tables.</p>
+    </a>
+    <a class="card" href="adventure.html">
+      <h2>Adventure</h2>
+      <p>Roll a journey from the lists in the List RPG notes: background, objective, destination, encounters, boss, reward, and conclusion.</p>
+    </a>
+    <a class="card" href="oracle.html">
+      <h2>Solo oracle</h2>
+      <p>A d6 yes/no oracle for play without a Game Master. Likely and unlikely use Advantage and Disadvantage. The travel watch uses the rules.</p>
+    </a>
+  </div>
+  <p>Open <code>labs/web/index.html</code> directly, or serve the repository. Relative links keep working on a static host such as GitHub Pages at <code>labs/web/</code>.</p>
+  <p>The Python files next to this folder are optional command-line sketches. Several of them roll a d20 or build OSR characters and are not SRPG. Read <a href="../README.md">labs/README.md</a>.</p>
+</main>
+<footer>
+  <p>Rules live in <a href="../../rules/index.md">rules/</a>. These pages do not change them.</p>
+</footer>
+<noscript>These labs need JavaScript. There is no build step.</noscript>
+<script src="js/ui.js"></script>
+</body>
+</html>

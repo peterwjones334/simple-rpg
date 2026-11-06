@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attribute checks — SRPG labs</title>
+<link rel="stylesheet" href="css/labs.css">
+</head>
+<body>
+<header class="site">
+  <div>
+    <a class="mark" href="index.html">SRPG labs</a>
+    <p class="tag">d6 roll-under, from the short rules</p>
+  </div>
+  <div class="theme">
+    <button type="button" data-theme="paper" class="active" aria-pressed="true">Paper</button>
+    <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+  </div>
+</header>
+<nav class="tools" aria-label="Labs">
+  <a href="dice.html" aria-current="page">Checks</a>
+  <a href="character.html">Character</a>
+  <a href="npc.html">NPC</a>
+  <a href="adventure.html">Adventure</a>
+  <a href="oracle.html">Oracle</a>
+</nav>
+<main>
+  <h1>Attribute checks</h1>
+  <p class="rule">Roll 1d6. Succeed if the result is below the attribute. A modifier is added to the die first, and a higher total is worse.</p>
+  <form id="check-form" class="card">
+    <div class="fields">
+      <label>Attribute
+        <input id="attribute" type="number" value="4" min="-5" max="30" required>
+      </label>
+      <label>Roll modifier
+        <input id="modifier" type="number" value="0" min="-10" max="20">
+      </label>
+    </div>
+    <fieldset>
+      <legend>Dice</legend>
+      <div class="choices">
+        <label class="check"><input type="radio" name="mode" value="normal" checked> Normal (1d6)</label>
+        <label class="check"><input type="radio" name="mode" value="advantage"> Advantage (2d6, keep lower)</label>
+        <label class="check"><input type="radio" name="mode" value="disadvantage"> Disadvantage (2d6, keep higher)</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Kind of check</legend>
+      <div class="choices">
+        <label class="check"><input type="radio" name="kind" value="general" checked> General</label>
+        <label class="check"><input type="radio" name="kind" value="attack"> Attack</label>
+        <label class="check"><input type="radio" name="kind" value="defense"> Defense</label>
+      </div>
+    </fieldset>
+    <p class="muted">If Advantage and Disadvantage both apply, they cancel: roll a normal check. Harder foes add +1 to the roll for each Hit Die above the character's level. A natural 1 on an attack is a critical hit. A natural 6 on a defense is a critical failure.</p>
+    <button type="submit">Roll check</button>
+    <div id="check-result" aria-live="polite"></div>
+  </form>
+  <form id="damage-form" class="card">
+    <h2>Damage dice</h2>
+    <div class="fields">
+      <label>Number of d6
+        <input id="damage-count" type="number" value="1" min="1" max="20">
+      </label>
+      <label>Flat modifier
+        <input id="damage-mod" type="number" value="0" min="-10" max="20">
+      </label>
+      <label class="check"><input id="doubled" type="checkbox"> Double the dice</label>
+    </div>
+    <button type="submit">Roll damage</button>
+    <div id="damage-result" aria-live="polite"></div>
+  </form>
+  <section class="card">
+    <h2>Rolls from the rules</h2>
+    <div class="actions">
+      <button type="button" id="btn-encounter">Travel encounter (1d6)</button>
+      <button type="button" id="btn-reaction">Reaction (2d6)</button>
+      <button type="button" id="btn-ooa">Out of Action (2d6)</button>
+      <button type="button" id="btn-coins">Starting coins (1d6 × 10)</button>
+    </div>
+    <div id="extra-result" aria-live="polite"></div>
+  </section>
+  <form id="pool-form" class="card">
+    <h2>Open d6 pool</h2>
+    <p class="muted">Hit dice, weapon damage, and any other handful of d6s. This does not apply roll-under by itself.</p>
+    <div class="fields">
+      <label>Number of d6
+        <input id="pool-count" type="number" value="2" min="1" max="40">
+      </label>
+      <label>Modifier
+        <input id="pool-mod" type="number" value="0" min="-20" max="40">
+      </label>
+    </div>
+    <button type="submit">Roll pool</button>
+    <div id="pool-result" aria-live="polite"></div>
+  </form>
+</main>
+<footer>
+  <p>See <a href="../../rules/game-mechanic.md">Game mechanic</a> and <a href="../../rules/action.md">Advantage, initiative and combat</a>. Travel and reactions are in <a href="../../rules/turns.md">Turns</a>. Recovery is in <a href="../../rules/recovery.md">Rest and healing</a>.</p>
+</footer>
+<noscript>These labs need JavaScript. There is no build step.</noscript>
+<script src="js/dice.js"></script>
+<script src="js/tables.js"></script>
+<script src="js/generate.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/dice-page.js"></script>
+</body>
+</html>
